@@ -1,5 +1,5 @@
 # FormKit Memory Issue
-To run the repository, run the follwing:
+Start instructions:
 1. `npm install`
 2. Ensure that there is a FormKit pro key in the formkit.config.ts file
 3. Modify app.vue for testing with or without pro inputs
