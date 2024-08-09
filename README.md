@@ -10,8 +10,9 @@ For clinic.js testing, run `clinic doctor --on-port 'autocannon -c -10 -a 500 lo
 
 ## Chrome DevTools
 1. Open the node server with `node --expose-gc --inspect .output/server/index.mjs`. 
-2. Open DevTools with `chrome:/inspect`. 
-3. After taking an initial snapshot, I run the following command on a linux terminal: `for i in {1..1000}; do curl -s http://localhost:3000 > /dev/null; done` 
-4. Take another snapshot.
+2. Open DevTools with `chrome:/inspect`.
+3. Take a Heap Snapshot in the Memory tab.
+4. After taking an initial snapshot, I run the following command on a linux terminal: `for i in {1..1000}; do curl -s http://localhost:3000 > /dev/null; done` 
+5. Take another snapshot.
 
 Keep repeating steps 3 and 4 to see an increase of retained memory between each snapshot. 
