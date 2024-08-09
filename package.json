@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@formkit/core": "1.6.5",
+    "@formkit/icons": "1.6.5",
+    "@formkit/nuxt": "1.6.5",
+    "@formkit/pro": "0.126.16",
+    "@formkit/themes": "1.6.5",
+    "@formkit/vue": "1.6.5",
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "nuxt": "^3.12.4",
+    "vue": "latest"
+  }
+}
